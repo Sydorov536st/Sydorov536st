@@ -20,7 +20,7 @@
 
 3. Далі налаштовуємо **Terraform.** Створюємо три файли типу **(main, variables, outputs).tf**
 в яких буде записан певний код. У **main** вказується **Terraform,** що працюватиме із GCP,створюється **networ** та **subnetwork**, 
-у **vm\_instance* задаємо 5 тегів.Конфігуруємо **firewall.** в **variables** вказуємо Project ID:назву та назву файлу з ключем.
+у **vm\_instance** задаємо 5 тегів.Конфігуруємо **firewall.** в **variables** вказуємо Project ID:назву та назву файлу з ключем.
 
 **main.tf**
 ```
