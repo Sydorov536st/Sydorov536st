@@ -40,7 +40,7 @@ resource "google_compute_network" "vpc_network" {
 
 resource "google_compute_instance" "vm_instance" {
   name         = var.machine_name
-  machine_type = "e2-standard-2" # Don't need much for small server
+  machine_type = "e2-standard-2"
   tags         = ["rgr", "jenkins"]
 
   boot_disk {
