@@ -109,7 +109,7 @@ sudo apt install nano
 ```
 sudo apt install git
 ```
- – оновити гіт
+ – встановити гіт
 ```
 sudo apt install openjdk-11-jre
 ```
